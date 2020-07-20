@@ -1,4 +1,4 @@
-## 0.0.1-alpha (2020-07-20)
+## [0.0.1-alpha](https://github.com/LazyDuke/ToyReact/compare/c6575ed6b6aafc5a18c1edf6f34dfaac535df978...v0.0.1-alpha) (2020-07-20)
 
 
 ### Features
