@@ -5,7 +5,12 @@ module.exports = {
     node: true,
     jest: true
   },
-  extends: ['standard', 'plugin:prettier/recommended'],
+  extends: [
+    'standard',
+    'plugin:react/recommended',
+    'plugin:prettier/recommended',
+    'prettier/react'
+  ],
   globals: {
     Atomics: 'readonly',
     SharedArrayBuffer: 'readonly'
@@ -13,7 +18,18 @@ module.exports = {
   parser: 'babel-eslint',
   parserOptions: {
     ecmaVersion: 11,
-    sourceType: 'module'
+    sourceType: 'module',
+    ecmaFeatures: {
+      jsx: true
+    }
   },
-  plugins: ['babel']
+  plugins: ['babel', 'react', 'prettier'],
+  rules: {
+    'react/no-deprecated': 0
+  },
+  settings: {
+    react: {
+      pragma: 'ToyReact'
+    }
+  }
 }
