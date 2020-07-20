@@ -1,7 +1,7 @@
 {
   "name": "toy-react",
   "version": "0.0.1-alpha",
-  "main": "main.js",
+  "main": "lib/ToyReact.js",
   "repository": "git@github.com:LazyDuke/ToyReact.git",
   "author": "懒成铁 <weiguocai.fzu@gmail.com>",
   "license": "MIT",
