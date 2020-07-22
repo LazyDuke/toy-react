@@ -1,10 +1,6 @@
-import MyComponent from './components/MyComponent'
+import Board from './components/Board'
 import ToyReact from '../lib/ToyReact'
 
-const App = (
-  <MyComponent name="app" id="app">
-    <div>my componet children</div>
-  </MyComponent>
-)
+const App = <Board />
 
 ToyReact.render(App, document.body)
