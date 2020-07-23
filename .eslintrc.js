@@ -25,7 +25,8 @@ module.exports = {
   },
   plugins: ['babel', 'react', 'prettier'],
   rules: {
-    'react/no-deprecated': 0
+    'react/no-deprecated': 0,
+    'react/prop-types': 0
   },
   settings: {
     react: {
