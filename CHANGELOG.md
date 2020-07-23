@@ -1,3 +1,12 @@
+## [0.0.3-alpha](https://github.com/LazyDuke/ToyReact/compare/v0.0.2-alpha...v0.0.3-alpha) (2020-07-23)
+
+
+### Features
+
+* 完成 ToyReact 第三版 ([1f3aa24](https://github.com/LazyDuke/ToyReact/commit/1f3aa24b051923b97465961f57b55fda4400b254))
+
+
+
 ## [0.0.2-alpha](https://github.com/LazyDuke/ToyReact/compare/v0.0.1-alpha...v0.0.2-alpha) (2020-07-22)
 
 
