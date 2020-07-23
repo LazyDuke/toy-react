@@ -1,6 +1,7 @@
-import Board from './components/Board'
+import Game from './components/Game'
 import ToyReact from '../lib/ToyReact'
+import ToyReactDom from '../lib/ToyReactDom'
 
-const App = <Board />
+const App = <Game />
 
-ToyReact.render(App, document.body)
+ToyReactDom.render(App, document.body)
